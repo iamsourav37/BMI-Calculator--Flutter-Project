@@ -6,7 +6,7 @@ import 'result_page.dart';
 
 
 
-const bottomContainerHeight = 80.0;
+const bottomContainerHeight = 50.0;
 // const activeContainerColor = Color(0xFF1D1E33);
 const activeContainerColor = Color(0xFF1976D2);
 const inactiveContainerColor = Color(0xFF111328);
@@ -266,7 +266,7 @@ class _InputPageState extends State<InputPage> {
                 child: Text(
                   "CALCULATE",
                   style: TextStyle(
-                    fontSize: 35.0,
+                    fontSize: 25.0,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
