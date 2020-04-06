@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 const labelTextStyle =  TextStyle(
             fontSize: 20.0,
-            color: Color(0xFF8D8E98),
+            color: Color(0xFFFFFFFF),
             fontWeight: FontWeight.bold,
           );
 
@@ -24,7 +24,7 @@ class ReusableChildWidget extends StatelessWidget {
           size: 80.0,
         ),
         SizedBox(
-          height: 15.0,
+          height: 10.0,
         ),
         Text(
           text,
